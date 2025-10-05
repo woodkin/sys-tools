@@ -1,0 +1,6 @@
+使用EFIBootEditor编辑主板nvram:
+
+A. nvram的引导项中，没有指明文件路径时，一般会自动查找 \EFI\BOOT\*.efi ，最好添加此文件路径参数。
+B.nvram的引导项中如果没有指明文件路径，有可能不能正确引导 *.efi 文件！
+B. 已安装的windows系统，它在安装时会自动修改nvram的文件路径。指向 \EFI\Microsoft\Boot\bootmgfw.efi 。 
+
